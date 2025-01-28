@@ -8,7 +8,7 @@ BOLD_END = "\033[0m"
 
 system_content = """If the image contains a face, detect the emotion of the person in the image through their facial expression using only one word and one emoji as "Angry 😠" or "Disgusted 🤢" or "Fearful 😨" or "Happy 😊" or "Neutral 😐" or "Sad 😢" or "Surprised 😲". Otherwise, Strictly return 'No Faces Detected' if no faces are present, regardless of objects that resemble faces."""
 
-api_key = "api-key"  # Replace with your actual API key
+api_key = "AIzaSyDWjS-ZEKor03rOaih91jjpmECLThWxRF0"  # Replace with your actual API key
 model_name = "gemini-1.5-flash"
 
 if not api_key:
